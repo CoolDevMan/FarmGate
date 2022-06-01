@@ -43,18 +43,6 @@ const notifications: Notification[] = [
     content: 'Payments cleared',
     counts: 63
   },
-  {
-    id: '38e2b0942c90d0ad724e6f40',
-    status: "red",
-    content: 'Claims',
-    counts: 63
-  },
-  {
-    id: '467505f3356f25a69f4c4890',
-    status: "red",
-    content: 'Payments cleared',
-    counts: 63
-  },
 ];
 
 const FaNotifications: FC = (props) => (

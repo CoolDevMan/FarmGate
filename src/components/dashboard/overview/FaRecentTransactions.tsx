@@ -25,22 +25,17 @@ const transactions: Transaction[] = [
   {
     id: 'de0eb1ac517aae1aa57c0b7e',
     title: "Fresh Fruits",
-    number: "RT 03lsdf"
+    number: "R 516 248"
   },
   {
     id: '38e2b0942c90d0ad724e6f40',
     title: "Farm Fruits",
-    number: "R 200 220"
+    number: "R 115 487"
   },
   {
     id: '467505f3356f25a69f4c4890',
     title: "Sunfresh Fruits",
-    number: "R595 110"
-  },
-  {
-    id: '38e2b0942c90d0ad724e6f40',
-    title: "Dakar Fruits",
-    number: "R 200 220"
+    number: "R 595 110"
   }
 ];
 
