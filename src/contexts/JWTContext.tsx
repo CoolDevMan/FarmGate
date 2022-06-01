@@ -114,10 +114,18 @@ export const AuthProvider: FC<AuthProviderProps> = (props) => {
   useEffect(() => {
     const initialize = async (): Promise<void> => {
       try {
-        const accessToken = window.localStorage.getItem('accessToken');
+        // const accessToken = window.localStorage.getItem('accessToken');
 
-        if (accessToken) {
-          const user = await authApi.me(accessToken);
+        // if (accessToken) {
+          // const user = await authApi.me(accessToken);
+          const user = {
+            id: '5e86809283e28b96d2d38537',
+            avatar: '/static/mock-images/avatars/avatar-jane_rotanson.png',
+            email: 'demo@devias.io',
+            name: 'Jane Rotanson',
+            password: 'Password123!',
+            plan: 'Premium'
+          }
 
           dispatch({
             type: 'INITIALIZE',
@@ -126,15 +134,15 @@ export const AuthProvider: FC<AuthProviderProps> = (props) => {
               user
             }
           });
-        } else {
-          dispatch({
-            type: 'INITIALIZE',
-            payload: {
-              isAuthenticated: false,
-              user: null
-            }
-          });
-        }
+        // } else {
+        //   dispatch({
+        //     type: 'INITIALIZE',
+        //     payload: {
+        //       isAuthenticated: false,
+        //       user: null
+        //     }
+        //   });
+        // }
       } catch (err) {
         console.error(err);
         dispatch({
