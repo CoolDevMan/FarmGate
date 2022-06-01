@@ -11,7 +11,7 @@ import {
   Link,
   Typography
 } from '@material-ui/core';
-import AuthBanner from '../../components/authentication/AuthBanner';
+// import AuthBanner from '../../components/authentication/AuthBanner';
 import { VerifyCodeAmplify } from '../../components/authentication/verify-code';
 import Logo from '../../components/Logo';
 import useAuth from '../../hooks/useAuth';
@@ -44,7 +44,7 @@ const VerifyCode: FC = () => {
           minHeight: '100vh'
         }}
       >
-        <AuthBanner />
+        {/* <AuthBanner /> */}
         <Container
           maxWidth="sm"
           sx={{ py: 10 }}

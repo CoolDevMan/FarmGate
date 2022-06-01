@@ -11,7 +11,7 @@ import {
   Link,
   Typography
 } from '@material-ui/core';
-import AuthBanner from '../../components/authentication/AuthBanner';
+// import AuthBanner from '../../components/authentication/AuthBanner';
 import { PasswordResetAmplify } from '../../components/authentication/password-reset';
 import Logo from '../../components/Logo';
 import useAuth from '../../hooks/useAuth';
@@ -44,7 +44,7 @@ const PasswordReset: FC = () => {
           minHeight: '100vh'
         }}
       >
-        <AuthBanner />
+        {/* <AuthBanner /> */}
         <Container
           maxWidth="sm"
           sx={{ py: 10 }}
