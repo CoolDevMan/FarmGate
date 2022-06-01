@@ -25,7 +25,7 @@ const BrowseCharts: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Browse: Charts | Material Kit Pro</title>
+        <title>Browse: Charts | FarmGate</title>
       </Helmet>
       <Box
         sx={{

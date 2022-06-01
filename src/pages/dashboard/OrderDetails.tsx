@@ -52,7 +52,7 @@ const OrderDetails: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Dashboard: Order Details | Material Kit Pro</title>
+        <title>Dashboard: Order Details | FarmGate</title>
       </Helmet>
       <Box
         sx={{

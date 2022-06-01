@@ -30,7 +30,7 @@ const Pricing: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Pricing | Material Kit Pro</title>
+        <title>Pricing | FarmGate</title>
       </Helmet>
       <Box
         sx={{

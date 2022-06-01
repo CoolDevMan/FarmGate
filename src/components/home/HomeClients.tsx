@@ -50,7 +50,7 @@ const HomeClients: FC = (props) => (
               }}
               variant="body2"
             >
-              How to get started with Material Kit Pro
+              How to get started with FarmGate
             </Typography>
             <Link
               href="/docs"

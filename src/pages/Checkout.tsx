@@ -94,7 +94,7 @@ const Checkout: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Checkout | Material Kit Pro</title>
+        <title>Checkout | FarmGate</title>
       </Helmet>
       <Box
         sx={{

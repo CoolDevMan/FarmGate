@@ -4,7 +4,7 @@ title: Welcome
 
 # About the documentation
 
-Welcome to the documentation for Material Kit Pro! This documentation will take you
+Welcome to the documentation for FarmGate! This documentation will take you
 from [getting started](getting-started)
 with our kit to customizing it and making it work for your use case.
 

@@ -19,7 +19,7 @@ const Home: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Material Kit Pro</title>
+        <title>FarmGate</title>
       </Helmet>
       <div>
         <HomeHero />

@@ -29,7 +29,7 @@ const BrowseForms: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Browse: Forms | Material Kit Pro</title>
+        <title>Browse: Forms | FarmGate</title>
       </Helmet>
       <Box
         sx={{

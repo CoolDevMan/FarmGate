@@ -25,7 +25,7 @@ const BrowseModals: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Browse: Modals | Material Kit Pro</title>
+        <title>Browse: Modals | FarmGate</title>
       </Helmet>
       <Box
         sx={{

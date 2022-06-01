@@ -19,7 +19,7 @@ const BrowseGridLists: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Browse: Grid Lists | Material Kit Pro</title>
+        <title>Browse: Grid Lists | FarmGate</title>
       </Helmet>
       <Box
         sx={{

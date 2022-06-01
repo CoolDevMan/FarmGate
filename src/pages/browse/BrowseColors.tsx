@@ -15,7 +15,7 @@ const BrowseColors: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Browse: Colors | Material Kit Pro</title>
+        <title>Browse: Colors | FarmGate</title>
       </Helmet>
       <Box
         sx={{

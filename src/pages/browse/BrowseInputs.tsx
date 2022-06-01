@@ -18,7 +18,7 @@ const BrowseInputs: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Browse: Inputs | Material Kit Pro</title>
+        <title>Browse: Inputs | FarmGate</title>
       </Helmet>
       <Box
         sx={{

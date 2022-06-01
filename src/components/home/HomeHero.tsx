@@ -58,7 +58,7 @@ const HomeHero: FC = (props) => {
           color="textPrimary"
           variant="h3"
         >
-          Material Kit Pro v4
+          FarmGate
         </Typography>
         <Typography
           align="center"

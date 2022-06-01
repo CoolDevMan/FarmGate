@@ -25,7 +25,7 @@ const Overview: FC = () => {
   return (
     <>
       <Helmet>
-        <title>Dashboard: Overview | Material Kit Pro</title>
+        <title>Dashboard: Overview | FarmGate</title>
       </Helmet>
       <Box
         sx={{
